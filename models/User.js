@@ -8,7 +8,7 @@ const UserSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: TextTrackCue,
+    unique: true,
     passowrd: {
       type: String,
       required: true
