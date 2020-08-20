@@ -49,7 +49,7 @@ router.post(
         d: "mm"
       });
 
-      //create new instance of User
+      //create new instance of User from models
       user = new User({
         name,
         email,
