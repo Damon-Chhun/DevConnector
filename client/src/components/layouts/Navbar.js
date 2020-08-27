@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Landing } from "./Landing";
 
 export const Navbar = () => {
   return (
@@ -12,7 +11,7 @@ export const Navbar = () => {
       </h1>
       <ul>
         <li>
-          <a href="/devlopers">Developers</a>
+          <Link to="/devlopers">Developers</Link>
         </li>
         <li>
           <Link to="/register">Register</Link>

@@ -13,10 +13,10 @@ const App = () => (
       <Navbar></Navbar>
       <Route exact path="/" component={Landing} />
       <section className="container">
-        <switch>
+        <Switch>
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
-        </switch>
+        </Switch>
       </section>
     </Fragment>
   </Router>
