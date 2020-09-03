@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://Damon-Chhun:bladewolf99@devconnecter.soput.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysercrettoken",
+  "githubClientID": "2cd4452eabf8d0213c41",
+  "githubSecret": "75b8a08cc72261a207fc925a2c812ba6f771798e"
+}
