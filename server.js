@@ -7,7 +7,7 @@ const path = require("path");
 connectDB();
 
 //Init Middleware
-app.use(express.json({ extended: false }));
+app.use(express.json());
 
 // Define Routes
 app.use("/api/users", require("./routes/api/users"));
